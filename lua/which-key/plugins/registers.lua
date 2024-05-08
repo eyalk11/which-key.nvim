@@ -13,7 +13,7 @@ M.actions = {
 
 function M.setup(_wk, _config, options) end
 
-M.registers = '*+"-:.%/#=_abcdefghijklmnopqrstuvwxyz0123456789'
+M.registers = '*0123456789-zvutsrqpo:abcdefghijklmn'
 
 local labels = {
   ['"'] = "last deleted, changed, or yanked content",
